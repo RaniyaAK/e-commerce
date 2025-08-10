@@ -1,0 +1,8 @@
+#services{
+    color:#4926e1;
+    text-align: center;
+    
+}
+.services-cards{
+    display: grid;
+}

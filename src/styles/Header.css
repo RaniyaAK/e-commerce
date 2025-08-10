@@ -1,0 +1,164 @@
+
+/* 
+
+header{
+    background-image: url(/public/images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height: 600px;
+    
+}
+.joy{
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+  
+}
+
+.home-heading{
+    color: white;
+   
+
+}
+
+.home-heading h1{
+    font-size: 60px;
+    font-weight: bold;
+    
+
+}
+
+
+
+.home-heading p{
+    font-size: 30px;
+}    
+
+.readmore-home{
+    background:#4926e1;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Serif:wght@700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+
+:root {
+    --primary-color: #b18b5e ;
+    
+}
+
+ul {
+    list-style-type:none;
+}
+.nav-items {
+    display: flex;
+    gap: 40px;
+    /* justify-content:center; */
+}
+.nav-items li a {
+    color:black;
+    text-decoration: none;
+    /* font-size: 20px; */
+    
+}
+
+.top-header{
+    background-color: var(--primary-color);
+    color:white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  
+}
+
+.top-header-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.call{
+    display: flex;
+
+    
+}
+.bottom-header{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/* .search-box{ */
+    /* margin-top: 35px; */
+    /* padding-right: 30px;
+    */
+/* } */
+.search{
+    width: 300px;
+}    
+.search-box input{
+    border-radius: 25px;
+    padding-left: 20px;  
+    padding-bottom: 15px;
+    padding-top: 15px;  
+    border: solid;  
+    border-width:thin; 
+    border-color:#dfdfdf;
+  
+    
+}
+
+label{
+    position: relative;
+    
+}
+
+.search-box button{
+    position: absolute;
+    top: -13px;
+    right: 1px;
+    bottom: 13px;
+    width: 50px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color:antiquewhite;
+    border: none;    
+}
+input:focus{
+    outline: none;
+}
+
+
+.addina h1{
+         font-family:' Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+         font-size: 25px;
+         font-weight: bolder;
+
+}
+.new-arrival-button{
+    color: #b18b5e;
+    background-color:#e7e7e7;
+    border: none;
+    padding: 10px 15px;
+    font-family:' Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+
+    
+   
+}
+.para{
+    
+}
+
+
+ 
+
+

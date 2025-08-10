@@ -1,0 +1,20 @@
+.price-card h1{
+    color:#4926e1;
+}
+.price-card{
+    border: solid;
+    border-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.select-plan{
+    background: #4926e1;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+   
+
+}
+.price-card ul{
+    list-style-type:square;
+
+}
