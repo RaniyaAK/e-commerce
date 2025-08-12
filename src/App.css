@@ -30,18 +30,18 @@ table {
 
 :root {
     --background: #F5F5F5;
-    --brand-color: #FF6F3C;
+    --brand-color:#b18b5e;
     --color: #202020;
     --color-smooth: #606060;
     --color-white: #F5F5F5;
-    --blue: #2155CD;
+    /* --blue: #2155CD;
     --blue-50: #2155CD80;
     --blue-hover: #396be2;
-    --blue-hover-50: #396be280;
+    --blue-hover-50: #396be280; */
     --item-bg: #EEE;
     --item-border: #D6D6D6;
     --shadow: rgba(0, 0, 0, 0.1);
-    --submit-shadow: rgba(33, 85, 205, 0.25);
+    /* --submit-shadow: rgba(33, 85, 205, 0.25); */
 }
 
 * {
@@ -176,7 +176,7 @@ body {
 }
 
 .input-hero input:focus{
-    border-color: var(--blue-50);
+    border-color:#b18b5e;
     outline: 0;
 }
 
@@ -193,7 +193,7 @@ body {
 
 .input-hero input:focus + .input-name{
     top: -1.25rem;
-    color: var(--blue)
+    color:#b18b5e;
 }
 
 .input-hero input:valid + .input-name{
@@ -209,7 +209,7 @@ body {
 }
 
 .input-hero input:focus + .input-name + .input-icon{
-    color: var(--blue)
+    color:#b18b5e;
 }
 
 .input-icon svg{
@@ -241,7 +241,7 @@ body {
     position: absolute;
     bottom: -1.15rem;
     right: 0;
-    color: var(--blue);
+    color:#b18b5e;
     
     
     
@@ -274,7 +274,7 @@ body {
 }
 
 .checkbox-hero input:checked + .checkbox-cover{
-    border-color: var(--blue);
+    border-color:#396be2;
     border-width: .4rem;
     
 }
@@ -288,8 +288,8 @@ body {
     border-radius: .5rem;
     transition: all .25s ease 0s;
     box-shadow: inset 1px 1px 3px var(--shadow);
-    background: var(--blue);
-    border: 1px solid var(--blue-50);
+    background:#396be2;
+    border: 1px solid;
     cursor: pointer;
     box-shadow: 0px 4px 4px var(--submit-shadow);
     transition: all .25s ease 0s;
@@ -298,8 +298,8 @@ body {
 }
 
 .submit-btn:hover{
-    background: var(--blue-hover);
-    border: 1px solid var(--blue-hover-50);
+    background:#396be2;;
+    border: 1px solid  #396be2;
 }
 
 .form-bottom{
@@ -311,7 +311,7 @@ body {
 }
 
 .form-bottom a{
-    color: var(--blue)
+    color: #396be2;;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,0 +1,51 @@
+.furniture-off{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color:rgb(211, 235, 235); */
+    grid-template-rows: 350px;
+    margin-top: 20px;
+    column-gap: 20px;
+}
+ 
+.furniture-off button{
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    background-color: #b18b5e;
+
+}
+
+.hanging-chair{
+   padding: 20px;
+    margin-top: 60px;
+    background-color:rgb(211, 235, 235); 
+    display: block;
+    
+}
+.hanging-chair h3{
+    color: #b18b5e;
+    margin-bottom: 20px;
+
+}
+.hanging-chair h1{
+    margin-bottom: 20px;
+    font-size: 25px
+}
+
+
+.arm-chair{
+    margin-top: 60px;
+    background-color:rgb(211, 235, 235); 
+    padding: 30px;
+    
+}
+
+.arm-chair h3{
+    color: #b18b5e;
+    margin-bottom: 20px;
+
+}
+.arm-chair h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}

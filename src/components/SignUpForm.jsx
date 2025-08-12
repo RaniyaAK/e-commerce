@@ -1,11 +1,7 @@
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
-        
-
 const SignUpForm = () => {
-
-
 
 
   const [isLogedIn, setIsLogedIn] = useState(false);
@@ -27,14 +23,14 @@ const SignUpForm = () => {
 
     if (formData.name === '' || formData.email === '' || formData.password === '' || formData.confirmpassword === '') {
       toast.error('please fill all required fields')
-
       return;
     }
      
     if (formData.password !== formData.confirmpassword){
       toast.error("password does not match")
+      return;
+      
     }  
-
 
 
     console.log('Form submitted:', { formData});
@@ -77,7 +73,7 @@ const SignUpForm = () => {
         <span className="checkbox-name"> Remember Me </span>
       </label>
       <button type="submit" className="submit-btn btn">
-        Login
+        Continue
       </button>
      <Toaster/>
     </form>

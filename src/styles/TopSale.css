@@ -1,0 +1,26 @@
+.top-sale-content{
+    display:grid;
+    justify-content: center;
+
+
+}
+
+.top-sale{
+  
+    border: solid;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    color:#b18b5e;
+    max-width: 100px;
+    padding:6px 10px; 
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    
+    
+
+}
+
+.featured-product h1{
+    font-size:40px
+}
