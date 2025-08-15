@@ -1,11 +1,17 @@
 
 import { Link } from "react-router-dom"
 import '../styles/About.css'
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+
 
 
 const About = () => {
     return(
         <>
+        
+        <Header/>
+        
          {/* <section id="about">
             
             <div className="about-us container">
@@ -18,10 +24,12 @@ const About = () => {
 
             </div> 
 
-        </section>
-         */}
+        </section> */}
+
+    
         
         
+        <Footer/>
         
         
         </>

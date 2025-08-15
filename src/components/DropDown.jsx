@@ -1,13 +1,117 @@
-import DropDown from "react-dropdown"
 
 
-const options = [
-  'one', 'two', 'three'
-];
-const defaultOption = options[0];
 
 
-export default DropDown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import Dropdown from "react-dropdown";
+
+
+// export default function MyDropDown(){
+//   const options = ["English","spanish","russian"];
+//   const defaultOption = options[0];
+
+//   const handleSelect = (option) => {
+//   };
+
+//   return(
+//     <Dropdown
+//     options={options}
+//     onChange={handleSelect}
+//     value={defaultOption}
+//     placeholder="select"/>
+//   );
+//   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import { useState } from "react";
+// // import DropDown from "react-dropdown";
+// // import "react-dropdown"
+
+// export default function DropDown(){
+//   const [open,setopen]=useState(false);
+//   const language = ["spanish","Russian"];
+//   return (
+//     <div>
+//       <div onClick={()=>setopen(!open)}>English</div>
+//       {open && (
+//         <div>
+//           {language.map(lang => (
+//             <div key={lang}>{lang}</div>
+//           ))}
+//         </div>
+//       )}
+//     </div>
+//   )
+// }
+
+
+
 
 
 

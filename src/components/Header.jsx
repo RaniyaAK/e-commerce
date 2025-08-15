@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom"
 import '../styles/Header.css'
-import DropDown from "./DropDown"
+// import DropDown from "./DropDown"
 import { useEffect, useState } from "react"
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
@@ -35,6 +35,7 @@ const Header = () =>{
 
  
 <header>
+    
     <div className="top-header">
         <div className="top-header-content container">
 
@@ -50,7 +51,7 @@ const Header = () =>{
             {/* <DropDown/> */}
                 
             <div class="dropdown">
-                  
+{/*                   
                     <select name="english" id="english">
                     
                             <option value="pages">English</option>
@@ -70,10 +71,10 @@ const Header = () =>{
         
                             <option value="faq">CHF</option>
                         
-                    </select>
+                    </select> */}
                     <select name="settings" id="settings">
                     
-                            <option value="teachers">Setting</option>
+                            <option value="teachers">Settings</option>
                         
                             <option value="aboutus">My Profile</option>
                         
@@ -94,10 +95,11 @@ const Header = () =>{
 
     </div>
     <div className="bottom-header">
-        <div className="addina container">
-            <h1>ADDINA</h1>
-            {/* <img src='/images/header-log.svg'/> */}
-        </div>
+        <div className="bottom-header-content container">
+            <div className="addina container">
+            
+                <img src='/images/header-logo.svg'/>
+            </div>
         
                <nav className="nav-items container">
                   <ul className="nav-items">
@@ -120,7 +122,7 @@ const Header = () =>{
                     
                 </div> 
                 
-                 
+        </div>      
 
     </div>
    

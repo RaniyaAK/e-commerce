@@ -12,14 +12,14 @@ const  FurnitureOff= () => {
             <div className="hanging-chair">
               <h3>GET 30% OFF</h3>
               <h1>Wicker Hanging Chair</h1>
-              <button className="buy-now">BUY NOW</button>
+              <button className="-furniture-off-buy-now">BUY NOW</button>
             </div>
             
             <div className="arm-chair">
               <h3>GET 15% OFF</h3>
               <h1>Brasslegged Armchair</h1>
-              <button className="buy-now">BUY NOW</button>
-
+              <button className="furniture-off-buy-now">BUY NOW</button>
+              
             </div>
           </div>
 

@@ -1,10 +1,45 @@
+import ContactInfoCard from "../components/ContactInfoCard"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import MapForm from "../components/MapForm"
+import { ContactInfo } from "../data/ContactInfo"
+import '../styles/ContactInfoCard.css'
 
 
 
 const Contact = () => {
     return(
         <>
-           <section id="contact">
+
+
+        <Header/>
+
+            <section id="breadcrumps-thumb">
+
+               <div class="breadcrumps-area container">
+                  <div class="bredcrumps-heading">
+                     <h1>Contact</h1>
+                  </div>
+                  <ul class="breadcrumps">
+                     <li>Home</li>                   
+                     <li>. Contact</li>
+                  </ul>
+               </div>
+            </section>
+
+            {/* <section id="contact-info">
+                <div className="contact-info-cards container"> */}
+                    {
+                        ContactInfo.map((item)=> <ContactInfoCard title={item.title} lines={item.lines}/>)
+                    }
+{/* 
+                </div>
+            </section> */}
+
+            <MapForm/>
+
+
+
             {/* <div className="contact-map container">
                 <div className="contact">
                     
@@ -24,7 +59,9 @@ const Contact = () => {
 
             </div> */}
 
-          </section>
+        
+
+          <Footer/>
 
         </>
     )

@@ -3,7 +3,7 @@ import '../styles/TopSale.css'
 const TopSale = () => {
     return(
         <>
-
+{/* 
         <section>
             <div className="top-sale-content container">
                 <div className='top-sale'>
@@ -13,13 +13,22 @@ const TopSale = () => {
                 <div className='featured-product'>            
                    <h1>Featured Product</h1>
                 </div>
+                <div className='chair-cards'>
+                    <div className='chair-card'>
+                        <div className='off-percent'>
+                           10% Off
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
                 
            
 
 
 
-        </section>
+        </section> */}
         
         
         

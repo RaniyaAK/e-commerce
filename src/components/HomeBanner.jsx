@@ -1,12 +1,12 @@
+import '../styles/HomeBanner.css'
+
+
 const HomeBanner = () => {
     return(
         <>
         
-        
-        
-       
 
- <section id="home-banner">
+        <section id="home-banner">
             <div className="home-banner container">
 
                 <div className="home-banner-title">
@@ -17,16 +17,19 @@ const HomeBanner = () => {
                      <h1>Elevate Your Home Aesthestics</h1>
                      <p>A furniture e-commerce company operates in the digital space, offering a wide range of furniture products for sale through an online platform.</p>
                    </div>
-                   {/* <div className="home-banner-buttons">
+                   <div className="home-banner-buttons">
                     <button className="buy-now">BUY NOW</button>
                     <button className="view-details">VIEW DETAILS</button>
-                   </div> */}
+                   </div>
                 </div>
                    
             
                 <div className="home-banner-image container">
-                    <div className="image">
-                      {/* <img src="/public/images/chair-2.png"/> */}
+                    <div className='brown-circle'>
+
+                    </div>
+                    <div className="chair-image container">
+                      <img src="/images/chair.png"/>
                         
 
                     </div>

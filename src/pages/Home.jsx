@@ -6,6 +6,8 @@ import Header from "../components/Header"
 import HomeBanner from "../components/HomeBanner"
 import FurnitureOff from "../components/FurnitureOff"
 import TopSale from "../components/TopSale"
+import DropDown from "../components/DropDown"
+import Cart from "./Cart"
 
 
 const Home = () => {
@@ -16,9 +18,10 @@ const Home = () => {
      <Header/>
 
      <main>
-
-      <About/>
-      <Contact/>
+    
+     
+    
+      
       <HomeBanner/>
 
 

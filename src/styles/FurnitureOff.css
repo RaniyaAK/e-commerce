@@ -1,10 +1,10 @@
 .furniture-off{
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    /* background-color:rgb(211, 235, 235); */
-    grid-template-rows: 350px;
+    grid-template-columns:620px 620px;
+    grid-template-rows: 380px;
     margin-top: 20px;
     column-gap: 20px;
+    margin-bottom: 50px;
 }
  
 .furniture-off button{
@@ -12,14 +12,21 @@
     padding: 15px 35px;
     color: white;
     background-color: #b18b5e;
+    cursor: pointer;
+}
+.furniture-off button:hover{
+    background-color:#a38661;
 
 }
+
 
 .hanging-chair{
    padding: 20px;
     margin-top: 60px;
-    background-color:rgb(211, 235, 235); 
     display: block;
+    background: url(/public/images/hang-chair.png);
+    background-repeat: no-repeat;
+    background-position: cover;
     
 }
 .hanging-chair h3{
@@ -35,8 +42,9 @@
 
 .arm-chair{
     margin-top: 60px;
-    background-color:rgb(211, 235, 235); 
     padding: 30px;
+    background: url(/public/images/arm-chair.png);
+    
     
 }
 

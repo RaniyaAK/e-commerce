@@ -1,0 +1,116 @@
+footer{
+    background-color:black;
+    padding-bottom: 20px;
+}
+
+.footer-top-content{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 250px;
+    column-gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.addina-footer-logo{
+    margin-bottom: 20px;
+}
+.footer-top-content h1{
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-top-content p{
+    color: grey;
+    line-height: 25px;
+    /* margin-bottom: 20px; */
+}
+ul li{
+    color: grey;
+    margin-bottom: 20px;
+    
+}
+.location{
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    left: 8px;
+    top: -12px;
+    
+}
+
+.location-wrapper{
+    max-width: 30px;
+    border:solid;
+    border: none;
+    background-color:#b18b5e;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    position:absolute;
+}
+
+.call{
+    display:flex;
+
+    position: relative;
+    left: 8px;
+    top:-2px
+    
+}
+.call p{
+    color: rgb(226, 220, 220);
+}
+.location p{
+    color: rgb(226, 220, 220);
+}
+
+.contact p{
+    padding-bottom: 20px;
+}
+.call-wrapper{
+    max-width: 30px;
+    border:solid;
+    border: none;
+    background-color:#b18b5e;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    position:absolute;
+}
+.location p{
+    margin-left: 15px;
+}
+.call p{
+    margin-left: 15px;
+
+}
+
+hr{
+    border-color:rgb(78, 78, 78);
+    border-width: thin;
+}
+
+
+
+
+
+.footer-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 40px;
+}
+
+.payment-images{
+    display: flex;
+    gap: 4px;
+}
+.terms-privacy{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom-break{
+    max-height: 20px;
+    border-color: white;
+}

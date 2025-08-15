@@ -16,11 +16,22 @@
     margin-top: 30px;
     margin-left: 120px;
     margin-bottom: 30px;
-    
-    
-
 }
 
 .featured-product h1{
     font-size:40px
+}
+.off-percent{
+    color:white;
+    background-color: #b18b5e;
+    
+    margin-left: 20px;
+    max-width: 80px;
+    padding:3px 10px;
+    border-radius: 12px;
+    border: none;
+}
+.chair-card{
+    background-color:black
+    
 }
