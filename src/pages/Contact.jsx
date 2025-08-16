@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import ContactInfoCard from "../components/ContactInfoCard"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
@@ -21,20 +22,22 @@ const Contact = () => {
                      <h1>Contact</h1>
                   </div>
                   <ul class="breadcrumps">
-                     <li>Home</li>                   
+                     <li><Link to={'/'}>Home</Link></li>                   
                      <li>. Contact</li>
                   </ul>
                </div>
             </section>
 
-            {/* <section id="contact-info">
-                <div className="contact-info-cards container"> */}
+            <section id='contact-info'>
+                <div className="contact-info-cards container">
+                
                     {
-                        ContactInfo.map((item)=> <ContactInfoCard title={item.title} lines={item.lines}/>)
+                        ContactInfo.map((item)=> <ContactInfoCard title={item.title} lines={item.lines} icon={item.icon}/>)
                     }
-{/* 
+                
+ 
                 </div>
-            </section> */}
+            </section>
 
             <MapForm/>
 

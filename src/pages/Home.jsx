@@ -49,6 +49,24 @@ const Home = () => {
 
         <FurnitureOff/>
         <TopSale/>
+        <section>
+          <div className="furniture-rating container">
+            <div className="hot-deal-furniture">
+              <div className="hot-deal-furniture-card-wrapper">
+                 <div className="hot-deal-furniture-card">
+                    <h2>HOT DEAL FURNITURE</h2>
+                    <h1>Live Furniture Your Love</h1>
+                    <button className="furniture-rating-buy-now">BUY NOW</button>
+                 </div>
+              </div>
+            </div>
+            <div className="hot-deal-furniture-img">
+              <img src="/images/furniture-rating.png"/>
+
+            </div>
+
+          </div>
+        </section>
 
      </main>
 

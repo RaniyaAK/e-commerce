@@ -37,7 +37,6 @@
 
 }
 .product-card-content{
-    /* margin-left: 20px; */
     display: grid;
     gap: 20px;
 
@@ -45,7 +44,7 @@
 .product-card-content img{
     margin-left: 20px;
 }
-.image-bottom{
+.image-bottom-hr{
     border-color:rgb(227, 223, 223);
     border-width: thin;
     

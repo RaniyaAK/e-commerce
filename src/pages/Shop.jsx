@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import { product } from "../data/product"
 import Productcard from "../components/Productcard"
 import '../styles/ProductCard.css'
+import { Link } from "react-router-dom"
 
 const Shop = () => {
     return(
@@ -12,27 +13,19 @@ const Shop = () => {
         <section id="breadcrumps-thumb">
 
           <div class="breadcrumps-area container">
+            
                 <div class="bredcrumps-heading">
                   <h1>Product</h1>
                 </div>
-                <ul class="breadcrumps">
-                  <li>Home</li>                   
+              
+                <ul className="breadcrumps">
+                  <li><Link to={'/'}>Home</Link></li>                   
                   <li>. Product</li>
                 </ul>
+              
           </div>
+            
           
-            {/* <div className="breadcrumps-area container">
-               <h1>Product</h1>
-               <div breadcrumps>
-                <ul>
-                  <li>Home</li>
-                  <li>Product</li>
-                </ul>
-            </div>
-
-
-            </div>
-            */}
         </section>
 
 

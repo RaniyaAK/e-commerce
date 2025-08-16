@@ -8,7 +8,7 @@ const productcard = (props) => {
            
               <h3>{props.discount}</h3>
               <img src={props.image}/>
-                     <hr className="image-bottom"/>
+                <hr className="image-bottom-hr"/>
               <h1>{props.name}</h1>
               <div className="prices">
                 <del>${props.oldPrice}</del>

@@ -1,6 +1,7 @@
 footer{
     background-color:black;
     padding-bottom: 20px;
+    margin-top: 50px;
 }
 
 .footer-top-content{
@@ -29,7 +30,7 @@ ul li{
     margin-bottom: 20px;
     
 }
-.location{
+.footer-location{
     display: flex;
     margin-top: 10px;
     position: relative;
@@ -38,7 +39,7 @@ ul li{
     
 }
 
-.location-wrapper{
+.footer-logo-wrapper{
     max-width: 30px;
     border:solid;
     border: none;
@@ -49,7 +50,7 @@ ul li{
     position:absolute;
 }
 
-.call{
+.footer-call{
     display:flex;
 
     position: relative;
@@ -57,30 +58,24 @@ ul li{
     top:-2px
     
 }
-.call p{
+.footer-call p{
     color: rgb(226, 220, 220);
 }
-.location p{
+.footer-location p{
     color: rgb(226, 220, 220);
 }
 
 .contact p{
     padding-bottom: 20px;
 }
-.call-wrapper{
-    max-width: 30px;
-    border:solid;
-    border: none;
-    background-color:#b18b5e;
-    min-width: 40px;
-    min-height: 40px;
-    border-radius: 50%;
-    position:absolute;
-}
-.location p{
+
+
+
+
+.footer-location p{
     margin-left: 15px;
 }
-.call p{
+.footer-call p{
     margin-left: 15px;
 
 }

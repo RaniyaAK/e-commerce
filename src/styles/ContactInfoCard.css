@@ -1,7 +1,58 @@
 .contact-info-card{
-    border: solid;
+    border-width: thin;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+  
 
 }
+
+
+
+.contact-info-card p{
+    color: grey;
+    
+}
+
+
+
+
+.wrapper{
+    background-color:#b18b5e;
+    min-width: 70px;
+    min-height: 70px;
+    border-radius: 50%;
+    position:absolute; 
+
+}
+.contact-info-logos{
+   position: relative;
+   left: 22px;
+   top: 23px;
+
+}
+.contact-info-card-content{
+    display:grid;
+    gap: 60px;
+    
+}
+.texts{
+    display: grid;
+    gap: 20px;
+    
+}
+
 .contact-info-cards{
+    display:flex;
+    gap: 20px;
+    align-items: stretch;
+    flex-direction: row;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
 
 }
+
+

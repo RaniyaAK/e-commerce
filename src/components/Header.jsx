@@ -90,7 +90,7 @@ const Header = () =>{
                  {!isLogedIn && location.pathname !== '/login' && <Link to={'/Login'}><button className="login-btn">Login</button></Link>}
                  {isLogedIn &&  <Link to={'/Login'}><button onClick={handleLogout}className="login-btn">Logout</button></Link>}
             </div>
-
+            
         </div> 
 
     </div>

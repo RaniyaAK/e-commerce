@@ -43,26 +43,25 @@ const Footer = () => {
                       <li>Blog</li>
                       <li>Contact us</li>
                     </ul>
-                    
 
                 </div>
                 <div className="contact">
                     <h1>Contact</h1>
-                    <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    <p>4517 Washington Ave. Manchester,Kentucky 39495</p>
 
-                    <div className="location-wrapper">
+                    <div className="footer-logo-wrapper">
                     </div>
-                    <div className="location">
+                    <div className="footer-location">
                            <img src="/images/location.svg"/>
                        
                        <p>711-2880 Nulla St.</p>
                     </div>
 
                    
-                      <div className="call-wrapper">
+                      <div className="footer-logo-wrapper">
                       </div>
                       
-                      <div className="call">
+                      <div className="footer-call">
                      
                          <img src="/images/footer-call.svg"/>
                          {/* <p>897654322</p> */}

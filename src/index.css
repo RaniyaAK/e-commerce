@@ -15,9 +15,42 @@
 
 
 body{
-  background-color: white; 
+  background-color:white
 }
 
+.breadcrumps{
+    display: flex;
+    gap: 4px;
+}
+.breadcrumps-area h1{
+    color: white;
+    font-size:50px;
+    margin-bottom: 20px;
+    
+}
+#breadcrumps-thumb{
+    background-image: url(/public/images/breadcrumb-bg-furniture.jpg);
+    height:1400px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.breadcrumps-area{
+     margin:0 auto;
+     
+     
+
+}
+.breadcrumps li,a{
+    color: white;
+    text-decoration: none;
+
+}
 
 
 
@@ -28,11 +61,7 @@ body{
     box-sizing: border-box;
     
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    
-} */
+
 
 
 
@@ -70,3 +99,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+.furniture-rating{
+  display: flex;
+  background-color: blue;
+  
+}
+ 
+.furniture-rating button{
+    border: none;
+    padding: 15px 10px;
+    color:black;
+    background-color:white;
+    cursor: pointer;
+    max-width: 100px;
+}
+
+.hot-deal-furniture-card{
+  background-color: #b18b5e;
+  color: white;
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+  border: solid;
+  border-color:white;
+  margin: 20px;
+  border-width: thin;
+  max-width: 280px;
+  
+  
+  
+}
+.hot-deal-furniture-img img{
+  max-width: 500px;
+}
+.hot-deal-furniture-card-wrapper{
+  background-color:#b18b5e;
+  padding: 2px;
+  
+}
+.hot-deal-furniture h1{
+  font-size:x-large;
+
+}
+.hot-deal-furniture h2{
+  font-size: medium;
+
+}
+.hot-deal-furniture {
+  place-content: center;
+  background-color: rgb(235, 225, 208);
+  
+  
+}
+

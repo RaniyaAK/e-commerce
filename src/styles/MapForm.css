@@ -1,0 +1,32 @@
+
+.map{
+ overflow: hidden;
+ padding-bottom:39.25%;
+ position:relative;
+ height:0;
+
+}
+
+.map iframe{
+ left:0;
+ top:0;
+ height:600px;
+ width:100%;
+ position:absolute;
+ 
+
+}
+/* .form-contents{
+    
+    display:flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    column-gap: 30px;
+    row-gap: 30px;
+} */
+.map-form{
+    display:flex
+}
+.name-email{
+    display: flex;
+}

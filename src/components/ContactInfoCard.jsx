@@ -2,30 +2,29 @@ const ContactInfoCard = (props) => {
     return(
         <>
 
-    <div className="contact-info-cards container">
+    
         <div className='contact-info-card'>
             <div className="contact-info-card-content">
-           
+              <div>
+                   <div className="wrapper">
+
+                   </div>
               
-              <h1>{props.title}</h1>
-              <p>{props.lines}</p>
+                  <div className="contact-info-logos">
+                     <img src={props.icon}/>
+                  </div>
+              </div>
+              <div className="texts">
+                 <h1>{props.title}</h1>
+                 <p>{props.lines}</p>
+              </div>
             </div>
         </div>
-    </div>
 
 
 
-            {/* <section id="contact-info">
-                <div className="contact-card">
-                    <div className="contact-card-content">
-                      <h3>{props.title}</h3>
-                      <h4>{props.lines}</h4>
-                    </div>
-            
 
-                </div>
-            </section>
-         */}
+    
         
         </>
     )

@@ -21,6 +21,10 @@ ul {
     text-decoration: none;
     
 }
+.nav-items li a:hover {
+    color:#b18b5e;
+
+}
 
 .top-header{
     background-color: var(--primary-color);
